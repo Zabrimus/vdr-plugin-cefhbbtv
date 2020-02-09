@@ -67,8 +67,8 @@ time_t cPluginCefHbbtv::WakeupTime() {
 }
 
 cOsdObject *cPluginCefHbbtv::MainMenuAction() {
-    // return new CefHbbtvPage("http://hbbtv.daserste.de/index.php");
-    return new CefHbbtvPage("itv.ard.de/ardstart/index.html");
+    return new CefHbbtvPage("http://hbbtv.daserste.de/index.php");
+    // return new CefHbbtvPage("itv.ard.de/ardstart/index.html");
 }
 
 cMenuSetupPage *cPluginCefHbbtv::SetupMenu() {
